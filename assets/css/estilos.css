@@ -1,6 +1,7 @@
 /* Variables */
 :root {
     --color-text-body: #525260;
+    --color-primary: #5956e9;
 }
 
 /* Estilos generales */
@@ -67,6 +68,27 @@ body {
     font-weight: bold;
     padding-left: 0.2rem;
     vertical-align: middle;
+}
+
+.nav__title:hover {
+    color: var(--color-primary);
+}
+
+.nav__title::before {
+    content: '';
+    height: 0.2rem;
+    width: 0;
+    background-color: var(--color-primary);
+    position: absolute;
+    bottom: -0.7rem;
+    left: 0;
+    opacity: 0;
+    transition: all 300ms linear;
+}
+
+.nav__title:hover::before {
+    width: 100%;
+    opacity: 1;
 }
 
 .nav__submenu {
