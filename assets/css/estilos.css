@@ -6,6 +6,8 @@
     --color-banner: #2522bA;
     --color-text-btn: #0d6efd;
     --color-bg-btn: #ffdc60;
+    --color-subtitle: #c75c6f;
+    --color-title: #292930;
 }
 
 /* Estilos generales */
@@ -380,4 +382,35 @@ body {
     100% {
         transform: rotateX(0%);
     }
+}
+
+/* Estilos seccion servicios */
+.layout__services {
+    position: relative;
+    z-index: 1;
+    margin: 5rem 4rem;
+}
+
+.services__grid {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.services__header {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.services__subtitle {
+    color: var(--color-subtitle);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.services__title {
+    color: var(--color-title);
+    font-size: 6.7rem;
+    line-height: 1.2;
+    font-weight: 500;
 }
