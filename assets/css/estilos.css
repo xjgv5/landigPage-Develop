@@ -424,10 +424,11 @@ body {
 
 .services__service {
     width: 33%;
+    height: 100%;
     border: 1px solid;
     border-image-source: linear-gradient(90deg, var(--color-bg-card), rgba(255, 255, 255, 0));
     padding: 5rem 4rem;
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     border-radius: 30px;
     margin-bottom: 4rem;
     background: linear-gradient(180deg, var(--color-bg-card), rgba(255, 255, 255, 0));
@@ -453,6 +454,7 @@ body {
 }
 
 .service__title {
+    color: var(--color-title);
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 1.4;
@@ -494,4 +496,18 @@ body {
 
 .service__more:hover::before {
     background-color: var(--color-primary);
+}
+
+
+/* Escalonado de las tarjetas de servicios */
+.services__service--bottom {
+    margin-top: 20rem;
+}
+
+.services__service--middle {
+    margin-top: 10rem;
+}
+
+.services__service--top {
+    margin-top: 0rem;
 }
