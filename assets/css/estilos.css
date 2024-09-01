@@ -456,4 +456,26 @@ body {
     font-weight: 500;
     line-height: 1.4;
     margin-bottom: 3rem;
+    transition: all 300ms ease-in-out;
+
+}
+
+.service__description {
+    overflow: hidden;
+    margin-bottom: 4rem;
+    font-size: 1.7rem;
+}
+
+.service__more {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    padding-left: 5rem;
+    transition: all 300ms ease-in-out;
+    font-size: 1.7rem;
+}
+
+.service__more:hover,
+.service__title:hover {
+    color: var(--color-primary);
 }
