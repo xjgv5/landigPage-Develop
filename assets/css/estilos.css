@@ -1,5 +1,6 @@
 /* Variables */
 :root {
+    --max-width: 1320px;
     --color-text-body: #525260;
     --color-primary: #5956e9;
     --color-secondary: #fff;
@@ -9,6 +10,8 @@
     --color-subtitle: #c75c6f;
     --color-title: #292930;
     --color-bg-card: #f8f8f8;
+    --color-bg-projects: #ecf2f6;
+
 }
 
 /* Estilos generales */
@@ -393,7 +396,7 @@ body {
 }
 
 .services__grid {
-    max-width: 1320px;
+    max-width: var(--max-width);
     margin: 0 auto;
 
 }
@@ -403,14 +406,16 @@ body {
     margin-bottom: 2rem;
 }
 
-.services__subtitle {
+.services__subtitle,
+.projects__subtitle {
     color: var(--color-subtitle);
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
 
-.services__title {
+.services__title,
+.projects__title {
     color: var(--color-title);
     font-size: 6.7rem;
     line-height: 1.2;
@@ -534,4 +539,26 @@ body {
 .service-shapes--shape3 {
     top: 34%;
     left: 4%;
+}
+
+/* Estilos de proyectos */
+.layout__projects {
+    position: relative;
+    background-color: var(--color-bg-projects);
+    padding: 14rem 10rem;
+    z-index: 1;
+}
+
+.projects__grid {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.projects__header {
+    margin-bottom: 4rem;
+
+}
+
+.projects__subtitle {
+    text-transform: capitalize;
 }
