@@ -626,3 +626,24 @@ body {
 .project__tag {
     font-size: 1.7rem;
 }
+
+.project-shapes__item {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.project-shapes--shape1 {
+    right: 10%;
+    top: 4%;
+}
+
+.project-shapes--shape2 {
+    right: 35%;
+    top: 7%;
+}
+
+.project-shapes--shape3 {
+    left: 5%;
+    top: 38%;
+}
