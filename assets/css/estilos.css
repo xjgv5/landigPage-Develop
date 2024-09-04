@@ -13,6 +13,7 @@
     --color-bg-projects: #ecf2f6;
     --color-bg-dark: #27272E;
     --color-text-description: #99a1aa;
+    --color-hover-dark: #303035;
 }
 
 /* Estilos generales */
@@ -699,4 +700,22 @@ body {
     width: 50%;
     margin: 0 auto 4rem;
     color: var(--color-text-description);
+}
+
+.stats__progress {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.stats__stat {
+    width: 25%;
+    text-align: center;
+    padding: 7rem 6rem;
+    border-radius: 20px;
+}
+
+.stats__stat:hover {
+    background: linear-gradient(180deg, var(--color-bg-dark), var(--color-hover-dark));
+    border: 1px solid var(--color-hover-dark);
 }
