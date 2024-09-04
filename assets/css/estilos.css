@@ -11,7 +11,8 @@
     --color-title: #292930;
     --color-bg-card: #f8f8f8;
     --color-bg-projects: #ecf2f6;
-
+    --color-bg-dark: #27272E;
+    --color-text-description: #99a1aa;
 }
 
 /* Estilos generales */
@@ -408,7 +409,8 @@ body {
 }
 
 .services__subtitle,
-.projects__subtitle {
+.projects__subtitle,
+.stats__subtitle {
     color: var(--color-subtitle);
     font-size: 2rem;
     font-weight: 500;
@@ -416,7 +418,8 @@ body {
 }
 
 .services__title,
-.projects__title {
+.projects__title,
+.stats__title {
     color: var(--color-title);
     font-size: 6.7rem;
     line-height: 1.2;
@@ -667,4 +670,33 @@ body {
 .project-shapes--shape3 {
     left: 5%;
     top: 38%;
+}
+
+/* Estilos para estadísticas */
+.layout__stats {
+    background-color: var(--color-bg-dark);
+    padding: 14rem 11rem;
+}
+
+.stats__container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.stats__header {
+    text-align: center;
+}
+
+.stats__title {
+    color: var(--color-secondary);
+    font-size: 6.5rem;
+    margin-bottom: 3rem;
+}
+
+.stats__description {
+    font-size: 2rem;
+    line-height: 1.5;
+    width: 50%;
+    margin: 0 auto 4rem;
+    color: var(--color-text-description);
 }
