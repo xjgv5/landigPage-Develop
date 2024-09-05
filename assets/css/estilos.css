@@ -858,4 +858,40 @@ body {
     width: 40%;
     text-align: left;
     margin: 0;
+    margin-bottom: 4rem;
+}
+
+.clients__logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.clients__item {
+    width: calc(25% - 3rem)
+}
+
+.clients__img {
+    filter: grayscale(100%);
+    opacity: 0.3;
+    transition: all 300ms ease-in-out;
+}
+
+.clients__item:hover>.clients__img {
+    filter: grayscale(0);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.layout__clients {
+    position: relative;
+}
+
+.client-shapes__item {
+    position: absolute;
+    z-index: 3;
+    top: 10rem;
+    right: 0;
+    pointer-events: none;
 }
