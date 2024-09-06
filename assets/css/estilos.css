@@ -413,7 +413,8 @@ body {
 .projects__subtitle,
 .stats__subtitle,
 .reviews__subtitle,
-.clients__subtitle {
+.clients__subtitle,
+.news__subtitle {
     color: var(--color-subtitle);
     font-size: 2rem;
     font-weight: 500;
@@ -423,7 +424,8 @@ body {
 .services__title,
 .projects__title,
 .stats__title,
-.reviews__title {
+.reviews__title,
+.news__title {
     color: var(--color-title);
     font-size: 6.7rem;
     line-height: 1.2;
@@ -774,7 +776,8 @@ body {
 
 }
 
-.reviews__desctiption {
+.reviews__desctiption,
+.news__description {
     margin-top: 3rem;
     width: 50%;
     font-size: 2rem;
@@ -894,4 +897,27 @@ body {
     top: 10rem;
     right: 0;
     pointer-events: none;
+}
+
+/* Estilos ultimas noticias */
+.layout__news {
+    position: relative;
+    z-index: 1;
+    padding: 14rem 0;
+}
+
+.news__container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.news__header {
+    text-align: center;
+    margin-bottom: 6rem;
+
+}
+
+.news__description {
+    width: 100%;
+    margin-top: 4rem;
 }
