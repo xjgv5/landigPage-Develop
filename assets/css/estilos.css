@@ -1026,3 +1026,13 @@ body {
     bottom: 1rem;
     right: 12rem
 }
+
+/* Estilos de contacto */
+.layout__contact {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 14rem;
+    padding-bottom: 10rem;
+}
