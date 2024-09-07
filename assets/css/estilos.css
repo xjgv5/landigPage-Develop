@@ -1000,3 +1000,29 @@ body {
     font-size: 1.3rem;
     vertical-align: middle;
 }
+
+.new-shapes__item {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.new-shapes--shape1 {
+    top: 14rem;
+    left: 31.5rem;
+}
+
+.new-shapes--shape2 {
+    top: 12rem;
+    right: 0;
+}
+
+.new-shapes--shape3 {
+    bottom: 8rem;
+    left: 0;
+}
+
+.new-shapes--shape4 {
+    bottom: 1rem;
+    right: 12rem
+}
