@@ -1159,3 +1159,15 @@ body {
     left: 65%;
     animation: moveShape4 30s infinite;
 }
+
+.backshapes--shape6 {
+    top: 26%;
+    right: 21%;
+    animation: moveShape5 34s infinite;
+}
+
+.backshapes--shape7 {
+    top: 33%;
+    right: 29%;
+    animation: moveShape3 36s infinite;
+}
