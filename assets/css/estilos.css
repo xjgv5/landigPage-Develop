@@ -1218,4 +1218,33 @@ body {
 
 .fleft__container {
     border-right: 1px solid var(--color-borders);
+    padding-right: 8rem;
+    margin-right: 4rem;
+    margin-bottom: 8rem;
+}
+
+.fleft__title {
+    display: inline-block;
+    font-size: 6.4rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--color-title);
+    margin-bottom: 2rem;
+}
+
+.fleft__subtitle {
+    margin-bottom: 4rem;
+    font-size: 1.7rem;
+}
+
+.fleft__group {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    height: 7.2rem;
+    padding: 1rem;
+    padding-right: 5.5rem;
+    box-shadow: 0 24px 48px -15px #ddd;
 }
