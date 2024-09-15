@@ -1248,3 +1248,13 @@ body {
     padding-right: 5.5rem;
     box-shadow: 0 24px 48px -15px #ddd;
 }
+
+/* suspend for date time */
+
+.fleft__mail-icon {
+    position: absolute;
+    left: 3rem;
+    top: 2.7rem;
+    z-index: 1;
+    display: inline-block;
+}
