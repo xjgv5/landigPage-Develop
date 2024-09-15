@@ -1249,6 +1249,7 @@ body {
     box-shadow: 0 24px 48px -15px #ddd;
 }
 
+<<<<<<< HEAD
 /* suspend for date time */
 
 .fleft__mail-icon {
@@ -1258,3 +1259,6 @@ body {
     z-index: 1;
     display: inline-block;
 }
+=======
+/* suspend for date time */
+>>>>>>> 56e94e9796040b32e9b791c90fee376ce1af7a94
