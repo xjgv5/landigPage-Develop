@@ -1235,6 +1235,7 @@ body {
 .fleft__subtitle {
     margin-bottom: 4rem;
     font-size: 1.7rem;
+    line-height: 1.2;
 }
 
 .fleft__group {
