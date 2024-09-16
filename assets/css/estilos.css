@@ -1240,6 +1240,7 @@ body {
 .fleft__group {
     position: relative;
     display: flex;
+    justify-content: space-between;
     width: 100%;
     background-color: var(--color-secondary);
     border-radius: 20px;
@@ -1247,18 +1248,40 @@ body {
     padding: 1rem;
     padding-right: 5.5rem;
     box-shadow: 0 24px 48px -15px #ddd;
+    align-items: center;
 }
 
-<<<<<<< HEAD
-/* suspend for date time */
+
 
 .fleft__mail-icon {
-    position: absolute;
-    left: 3rem;
-    top: 2.7rem;
-    z-index: 1;
+    margin-left: 2rem;
     display: inline-block;
+    margin-right: 2rem;
 }
-=======
-/* suspend for date time */
->>>>>>> 56e94e9796040b32e9b791c90fee376ce1af7a94
+
+.fleft__form-control {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1.5rem;
+    height: auto;
+    outline: none;
+    border: none;
+    flex: 1;
+    color: var(--color-title);
+    margin-right: 2rem;
+}
+
+.fleft__btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    border-radius: 16px;
+    padding: 1.4rem 3rem;
+    transition: all 300ms ease-in-out;
+}
+
+.fleft__btn:hover {
+    background-color: var(--color-banner);
+}
