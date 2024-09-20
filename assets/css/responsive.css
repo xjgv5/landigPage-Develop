@@ -291,4 +291,42 @@
         bottom: 0;
         right: -8rem;
     }
+
+    .social__img {
+        font-size: 2rem;
+    }
+
+    .footer__main {
+        flex-direction: column;
+    }
+
+    .footer__fleft {
+        width: 100%;
+    }
+
+    .fleft__container {
+        border-right: none;
+    }
+
+    .footer__fright {
+        width: 100%;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__copyright {
+        flex-basis: auto;
+        text-align: center;
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .footer__links {
+        justify-content: center;
+        display: flex;
+    }
+
 }
