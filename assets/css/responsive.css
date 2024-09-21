@@ -330,3 +330,50 @@
     }
 
 }
+
+@media (max-width: 770px) {
+    .layout__banner {
+        padding: 8rem 3rem;
+        margin: 0 3rem;
+    }
+
+    .banner__title {
+        font-size: 4rem;
+    }
+
+    .layout__services {
+        margin: 7rem 7rem;
+    }
+
+    /* .services__grid, */
+    /* .projects__grid, */
+    /* .stats__container, */
+    /* .contact__container, */
+    .reviews__grid,
+    .clients__container,
+    .news__container,
+    .footer__container {
+        max-width: 54rem;
+    }
+
+    .services__subtitle,
+    .projects__subtitle,
+    .stats__subtitle,
+    .reviews__subtitle,
+    .clients__subtitle,
+    .news__subtitle,
+    .contact__subtitle {
+        font-size: 1.6rem;
+
+    }
+
+    .services__title,
+    .projects__title,
+    .stats__title,
+    .reviews__title,
+    .news__title,
+    .contact__title {
+        font-size: 5rem;
+    }
+
+}
