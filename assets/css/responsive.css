@@ -376,4 +376,11 @@
         font-size: 5rem;
     }
 
+    .layout__projects {
+        padding: 6rem 5rem;
+    }
+
+    .projects__all {
+        flex-direction: row;
+    }
 }
