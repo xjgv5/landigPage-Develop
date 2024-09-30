@@ -11,5 +11,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
             mobile_menu.classList.add("menu-mobile--show")
         }
     })
+
+    // window.addEventListener("resize", ()=>{
+    //     let window_width = parseInt(document.body.clientWidth)
+    //     if(window_width > 1000){
+    //         mobile_menu.classList.remove("menu-mobile--show")
+    //     }
+    // })
+    console.log("hla")
     
 })
