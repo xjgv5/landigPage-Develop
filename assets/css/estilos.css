@@ -1315,11 +1315,11 @@ body {
 }
 
 .footer__widget--50 {
-    flex-basis: 50%;
+    flex-basis: 34%;
 }
 
 .footer__widget--25 {
-    flex-basis: 25%;
+    flex-basis: 33%;
 }
 
 .widget__title {

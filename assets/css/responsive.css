@@ -474,6 +474,8 @@
         margin-right: 0;
         margin-bottom: 8rem;
     }
+
+
 }
 
 @media (max-width: 640px) {
@@ -528,6 +530,11 @@
     .footer__widget--50 {
         flex-basis: auto;
     }
+
+    /* 
+    .footer__widget--25 {
+        flex-basis: 33%;
+    } */
 
     .footer__fright {
         flex-basis: 100%;
