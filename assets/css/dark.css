@@ -108,7 +108,9 @@ body {
 }
 
 .mobile-btn__wrap {
-
     background-color: var(--color-bg-projects);
+}
 
+.menu-mobile {
+    background-color: var(--color-banner);
 }
