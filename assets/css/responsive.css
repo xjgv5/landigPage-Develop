@@ -115,13 +115,15 @@
         padding-bottom: 7rem;
     }
 
-    .menu-mobile {
-        visibility: hidden;
-        opacity: 0;
-    }
 }
 
 @media (max-width: 1000px) {
+
+    /* .menu-mobile {
+        visibility: hidden;
+        opacity: 0;
+    } */
+
     .layout {
         min-width: auto;
     }

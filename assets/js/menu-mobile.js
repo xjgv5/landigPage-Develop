@@ -2,7 +2,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let mobile_btn = document.querySelector(".navbar__mobile-btn")
     let mobile_menu = document.querySelector(".menu-mobile")
 
-    mobile_btn.addEventListener("click", ()=>{
+
+    // mostrar y ocultar menu
+    const showHiddenMenu = () =>{
         let show = document.querySelector(".menu-mobile--show")
 
         if(show){
@@ -10,14 +12,21 @@ document.addEventListener("DOMContentLoaded", (event) => {
         } else{
             mobile_menu.classList.add("menu-mobile--show")
         }
+    }
+    // Al dar click al boton del menu, mostrar el menu de navegacion
+    mobile_btn.addEventListener("click", showHiddenMenu)
+
+    // Oculta el menu al ir a menos de una pantalla de 1000px
+    window.addEventListener("resize", ()=>{
+        let window_width = parseInt(document.body.clientWidth)
+        if(window_width > 1000){
+            mobile_menu.classList.remove("menu-mobile--show")
+        }
     })
 
-    // window.addEventListener("resize", ()=>{
-    //     let window_width = parseInt(document.body.clientWidth)
-    //     if(window_width > 1000){
-    //         mobile_menu.classList.remove("menu-mobile--show")
-    //     }
-    // })
-    console.log("hla")
+    // Cerrar el menu con el boton x
+    let btn_close = document.querySelector(".menu-mobile__close")
+    
+    btn_close.addEventListener("click", showHiddenMenu)
     
 })
